@@ -1,0 +1,6 @@
+# Logfile created on 2019-03-30 05:22:43 +0000 by logger.rb/61378
+March 30, 2019 05:22: User "Administrator" (admin@example.com) was created
+March 30, 2019 05:26: Failed Login: username=admin ip=172.17.0.1
+March 30, 2019 05:26: Failed Login: username=administrator ip=172.17.0.1
+March 30, 2019 05:26: User Created: username=aaron email=aaron@localhost ip=172.17.0.1 confirmed:true
+March 30, 2019 05:27: aaron created a new project "aaron / wordpress"

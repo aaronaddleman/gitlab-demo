@@ -1,0 +1,1592 @@
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :system. Overwriting existing method Importers::PrometheusMetric.system.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :fresh. Overwriting existing method ProjectSnippet.fresh.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :fresh. Overwriting existing method ProjectSnippet.fresh.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Started GET "/" for  at 2019-03-30 05:23:25 +0000
+Processing by RootController#index as HTML
+Redirected to http://example.org/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 107ms (ActiveRecord: 30.4ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:23:44 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1523ms (Views: 1508.4ms | ActiveRecord: 346.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:23:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 5.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:24:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:24:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 34ms (Views: 7.8ms | ActiveRecord: 23.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:24:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 5.8ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:24:46 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1419ms (Views: 1407.8ms | ActiveRecord: 327.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:24:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.5ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:25:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:25:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2019-03-30 05:25:21 +0000
+Processing by RootController#index as HTML
+Redirected to http://localhost:8080/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 31ms (ActiveRecord: 20.9ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-30 05:25:21 +0000
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:8080/users/password/edit?reset_password_token=sDK7RyFWUNmzf-Vw8ZhZ
+Filter chain halted as :check_initial_setup rendered or redirected
+Completed 302 Found in 624ms (ActiveRecord: 359.2ms)
+Started GET "/users/password/edit?reset_password_token=[FILTERED]" for 127.0.0.1 at 2019-03-30 05:25:22 +0000
+Processing by PasswordsController#edit as HTML
+  Parameters: {"reset_password_token"=>"[FILTERED]"}
+Completed 200 OK in 1476ms (Views: 828.1ms | ActiveRecord: 374.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:25:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms)
+Started PUT "/users/password" for 127.0.0.1 at 2019-03-30 05:25:38 +0000
+Processing by PasswordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+Completed 200 OK in 1332ms (Views: 236.0ms | ActiveRecord: 314.9ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:25:48 +0000
+Processing by HelpController#index as */*
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:25:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms)
+Completed 200 OK in 270ms (Views: 261.1ms | ActiveRecord: 3.2ms)
+Started PUT "/users/password" for 127.0.0.1 at 2019-03-30 05:25:50 +0000
+Processing by PasswordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 37dd8547-20f7-4541-8cd9-26229665a92e) to Sidekiq(mailers) with arguments: "DeviseMailer", "password_change", "deliver_now", #<GlobalID:0x00007f89d5a76f78 @uri=#<URI::GID gid://gitlab/User/1>>
+[ActiveJob] [ActionMailer::DeliveryJob] [37dd8547-20f7-4541-8cd9-26229665a92e] Performing ActionMailer::DeliveryJob from Sidekiq(mailers) with arguments: "DeviseMailer", "password_change", "deliver_now", #<GlobalID:0x00007f2181521710 @uri=#<URI::GID gid://gitlab/User/1>>
+Redirected to http://localhost:8080/users/sign_in
+Completed 302 Found in 2008ms (ActiveRecord: 669.5ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-30 05:25:52 +0000
+Processing by SessionsController#new as HTML
+Completed 200 OK in 365ms (Views: 258.7ms | ActiveRecord: 87.6ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [37dd8547-20f7-4541-8cd9-26229665a92e] Sent mail to admin@example.com (22.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [37dd8547-20f7-4541-8cd9-26229665a92e] Performed ActionMailer::DeliveryJob from Sidekiq(mailers) in 725.13ms
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:26:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-03-30 05:26:16 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"admin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 360ms (ActiveRecord: 244.7ms)
+Processing by SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"admin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:26:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms)
+Completed 200 OK in 821ms (Views: 421.5ms | ActiveRecord: 236.3ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-03-30 05:26:25 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"administrator", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 48ms (ActiveRecord: 36.1ms)
+Processing by SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"administrator", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 200 OK in 147ms (Views: 30.3ms | ActiveRecord: 42.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:26:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/users/aaron/exists" for 127.0.0.1 at 2019-03-30 05:26:34 +0000
+Processing by UsersController#exists as JSON
+  Parameters: {"username"=>"aaron"}
+Completed 200 OK in 331ms (Views: 0.2ms | ActiveRecord: 231.3ms)
+Started POST "/users" for 127.0.0.1 at 2019-03-30 05:26:45 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "new_user"=>{"name"=>"aaron", "username"=>"aaron", "email"=>"aaron@localhost", "email_confirmation"=>"aaron@localhost", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:8080/dashboard/projects
+Completed 302 Found in 1116ms (ActiveRecord: 415.3ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 05:26:46 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:26:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:26:48 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 572ms (Views: 560.3ms | ActiveRecord: 3.5ms)
+Completed 200 OK in 3599ms (Views: 1580.0ms | ActiveRecord: 1770.0ms)
+Started GET "/projects/new" for 127.0.0.1 at 2019-03-30 05:26:58 +0000
+Processing by ProjectsController#new as HTML
+Completed 200 OK in 997ms (Views: 571.7ms | ActiveRecord: 317.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:27:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:27:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+Started POST "/projects" for 127.0.0.1 at 2019-03-30 05:27:20 +0000
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "project"=>{"ci_cd_only"=>"false", "name"=>"wordpress", "namespace_id"=>"2", "path"=>"wordpress", "description"=>"", "visibility_level"=>"0", "initialize_with_readme"=>"1"}}
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:27:24 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:27:25 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:27:25 +0000
+Redirected to http://localhost:8080/aaron/wordpress
+Completed 302 Found in 5900ms (ActiveRecord: 1791.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:27:26 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Updating statistics for project 1
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:27:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 18ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 11748ms (Views: 8213.7ms | ActiveRecord: 2236.1ms)
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 05:27:38 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:27:38 +0000
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:27:38 +0000
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 2148ms (Views: 0.5ms | ActiveRecord: 855.8ms)
+Completed 200 OK in 2394ms (Views: 1.4ms | ActiveRecord: 362.7ms)
+Completed 200 OK in 3513ms (Views: 1010.9ms | ActiveRecord: 623.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:27:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:27:49 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 878ms (Views: 902.9ms | ActiveRecord: 3.2ms)
+Started GET "/aaron/wordpress/settings/ci_cd" for 127.0.0.1 at 2019-03-30 05:27:59 +0000
+Processing by Projects::Settings::CiCdController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 2916ms (Views: 2011.2ms | ActiveRecord: 635.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:28:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:28:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:28:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:28:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:28:50 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 956ms (Views: 899.2ms | ActiveRecord: 48.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:29:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:29:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:29:19 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 3913ms (Views: 2567.0ms | ActiveRecord: 972.9ms)
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 05:29:23 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:29:23 +0000
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:29:23 +0000
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Completed 200 OK in 885ms (Views: 1.7ms | ActiveRecord: 242.7ms)
+Completed 200 OK in 1034ms (Views: 123.3ms | ActiveRecord: 126.6ms)
+Completed 200 OK in 1509ms (Views: 0.4ms | ActiveRecord: 191.3ms)
+Started GET "/aaron/wordpress/refs?sort=updated_desc&ref=master&search=" for 127.0.0.1 at 2019-03-30 05:29:32 +0000
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:29:32 +0000
+Processing by ProjectsController#refs as JSON
+  Parameters: {"sort"=>"updated_desc", "ref"=>"master", "search"=>"", "namespace_id"=>"aaron", "id"=>"wordpress"}
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 494ms (Views: 0.2ms | ActiveRecord: 118.3ms)
+Started GET "/-/ide/project/aaron/wordpress/edit/master" for 127.0.0.1 at 2019-03-30 05:29:42 +0000
+Processing by IdeController#index as HTML
+  Parameters: {"vueroute"=>"project/aaron/wordpress/edit/master"}
+Completed 200 OK in 1585ms (Views: 1416.1ms | ActiveRecord: 120.6ms)
+Started GET "/api/v4/projects/aaron%2Fwordpress" for 127.0.0.1 at 2019-03-30 05:29:44 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Started GET "/api/v4/projects/aaron%2Fwordpress/repository/branches/master" for 127.0.0.1 at 2019-03-30 05:29:45 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:29:45 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1773ms (Views: 0.9ms | ActiveRecord: 1227.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:29:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:29:51 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1054ms (Views: 1043.1ms | ActiveRecord: 3.2ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:29:57 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1995ms (Views: 1.0ms | ActiveRecord: 1384.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:30:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:30:09 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1741ms (Views: 0.9ms | ActiveRecord: 1236.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:30:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:30:21 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1961ms (Views: 1.1ms | ActiveRecord: 1364.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:30:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:30:33 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1274ms (Views: 0.8ms | ActiveRecord: 783.9ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:30:45 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1763ms (Views: 0.8ms | ActiveRecord: 1186.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:30:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:30:52 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 346ms (Views: 338.0ms | ActiveRecord: 3.1ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:30:57 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 2403ms (Views: 1.9ms | ActiveRecord: 1642.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:31:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:31:09 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1235ms (Views: 0.8ms | ActiveRecord: 812.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:31:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:31:21 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1219ms (Views: 0.9ms | ActiveRecord: 770.9ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:31:32 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:31:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 1212ms (Views: 0.8ms | ActiveRecord: 782.9ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:31:43 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1228ms (Views: 1.0ms | ActiveRecord: 762.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:31:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:31:52 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 880ms (Views: 829.8ms | ActiveRecord: 42.2ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:31:55 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1174ms (Views: 0.9ms | ActiveRecord: 709.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:32:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:32:06 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1208ms (Views: 3.3ms | ActiveRecord: 745.2ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:32:17 +0000
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:32:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 20ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1244ms (Views: 0.7ms | ActiveRecord: 796.7ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:32:28 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1324ms (Views: 6.8ms | ActiveRecord: 776.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:32:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:32:40 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 2345ms (Views: 1.9ms | ActiveRecord: 1697.9ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:32:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:32:52 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:32:53 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1214ms (Views: 1.0ms | ActiveRecord: 783.3ms)
+Completed 200 OK in 602ms (Views: 587.2ms | ActiveRecord: 3.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:33:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:33:04 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 1175ms (Views: 0.8ms | ActiveRecord: 737.6ms)
+Started GET "/-/ide/project/aaron/wordpress/edit/master/-/" for 127.0.0.1 at 2019-03-30 05:33:08 +0000
+Processing by IdeController#index as HTML
+  Parameters: {"vueroute"=>"project/aaron/wordpress/edit/master/-"}
+Completed 200 OK in 748ms (Views: 603.7ms | ActiveRecord: 124.2ms)
+Started GET "/api/v4/projects/aaron%2Fwordpress" for 127.0.0.1 at 2019-03-30 05:33:09 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Started GET "/api/v4/projects/aaron%2Fwordpress/repository/branches/master" for 127.0.0.1 at 2019-03-30 05:33:10 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines" for 127.0.0.1 at 2019-03-30 05:33:11 +0000
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 2851ms (Views: 1.1ms | ActiveRecord: 1811.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:33:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:33:18 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 1955ms (Views: 1084.1ms | ActiveRecord: 463.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:33:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:33:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:33:54 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 801ms (Views: 791.0ms | ActiveRecord: 3.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:34:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:34:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:34:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:34:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:34:55 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 287ms (Views: 280.2ms | ActiveRecord: 3.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:35:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:35:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:35:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:35:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:35:55 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 620ms (Views: 613.0ms | ActiveRecord: 3.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:36:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:36:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:36:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:36:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:36:56 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 541ms (Views: 529.4ms | ActiveRecord: 4.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:37:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:37:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:37:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:37:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:37:57 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 531ms (Views: 507.9ms | ActiveRecord: 2.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:38:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:38:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/branches" for 127.0.0.1 at 2019-03-30 05:38:27 +0000
+Processing by Projects::BranchesController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Started GET "/aaron/wordpress/blob/master/README.md" for 127.0.0.1 at 2019-03-30 05:38:28 +0000
+Processing by Projects::BlobController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Completed 200 OK in 4029ms (Views: 2623.6ms | ActiveRecord: 252.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:38:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 3871ms (Views: 2302.0ms | ActiveRecord: 617.9ms)
+Started GET "/aaron/wordpress/commits/055241290c5e410830c28b07d827910b01d88951/signatures" for 127.0.0.1 at 2019-03-30 05:38:33 +0000
+Started GET "/aaron/wordpress/commit/055241290c5e410830c28b07d827910b01d88951/pipelines?ref=master" for 127.0.0.1 at 2019-03-30 05:38:33 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:38:33 +0000
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"ref"=>"master", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"055241290c5e410830c28b07d827910b01d88951"}
+Completed 200 OK in 761ms (Views: 0.2ms | ActiveRecord: 144.7ms)
+Completed 200 OK in 1376ms (Views: 0.7ms | ActiveRecord: 82.3ms)
+Completed 200 OK in 1673ms (Views: 2.4ms | ActiveRecord: 986.7ms)
+Started GET "/aaron/wordpress/edit/master/README.md" for 127.0.0.1 at 2019-03-30 05:38:36 +0000
+Processing by Projects::BlobController#edit as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Completed 200 OK in 1287ms (Views: 334.0ms | ActiveRecord: 128.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:38:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started PUT "/aaron/wordpress/update/master/README.md" for 127.0.0.1 at 2019-03-30 05:38:51 +0000
+Processing by Projects::BlobController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "file_path"=>"README.md", "encoding"=>"text", "commit_message"=>"Update README.md\r\n\r\nadded a change to readme", "branch_name"=>"master", "original_branch"=>"master", "last_commit_sha"=>"055241290c5e410830c28b07d827910b01d88951", "content"=>"[FILTERED]", "from_merge_request_iid"=>"", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:38:53 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:38:53 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:38:54 +0000
+Redirected to http://localhost:8080/aaron/wordpress/blob/master/README.md
+Completed 302 Found in 3046ms (ActiveRecord: 181.1ms)
+Started GET "/aaron/wordpress/blob/master/README.md" for 127.0.0.1 at 2019-03-30 05:38:54 +0000
+Processing by Projects::BlobController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:38:58 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 978ms (Views: 954.4ms | ActiveRecord: 7.6ms)
+Completed 200 OK in 4730ms (Views: 3213.2ms | ActiveRecord: 339.0ms)
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:38:59 +0000
+Started GET "/aaron/wordpress/commits/b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30/signatures" for 127.0.0.1 at 2019-03-30 05:38:59 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30"}
+Completed 200 OK in 1679ms (Views: 0.3ms | ActiveRecord: 254.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:39:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 28ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 2847ms (Views: 2.6ms | ActiveRecord: 117.6ms)
+Started GET "/aaron/wordpress/branches" for 127.0.0.1 at 2019-03-30 05:39:05 +0000
+Processing by Projects::BranchesController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 2390ms (Views: 621.5ms | ActiveRecord: 163.6ms)
+Started GET "/aaron/wordpress/branches/new" for 127.0.0.1 at 2019-03-30 05:39:10 +0000
+Processing by Projects::BranchesController#new as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 263ms (Views: 138.3ms | ActiveRecord: 101.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:39:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:39:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started POST "/aaron/wordpress/branches" for 127.0.0.1 at 2019-03-30 05:39:32 +0000
+Processing by Projects::BranchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "branch_name"=>"PROJA-001", "ref"=>"master", "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:39:33 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:39:33 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:39:34 +0000
+Redirected to http://localhost:8080/aaron/wordpress/tree/PROJA-001
+Completed 302 Found in 1717ms (ActiveRecord: 60.6ms)
+Started GET "/aaron/wordpress/tree/PROJA-001" for 127.0.0.1 at 2019-03-30 05:39:34 +0000
+Processing by Projects::TreeController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001"}
+Completed 200 OK in 3187ms (Views: 1447.9ms | ActiveRecord: 413.4ms)
+Started GET "/aaron/wordpress/refs/PROJA-001/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:39:37 +0000
+Started GET "/aaron/wordpress/blob/PROJA-001/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:39:37 +0000
+Started GET "/aaron/wordpress/commits/b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30/signatures" for 127.0.0.1 at 2019-03-30 05:39:37 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30"}
+Completed 200 OK in 1391ms (Views: 0.4ms | ActiveRecord: 211.3ms)
+Completed 200 OK in 2063ms (Views: 239.8ms | ActiveRecord: 153.4ms)
+Completed 200 OK in 2238ms (Views: 1.1ms | ActiveRecord: 76.5ms)
+Started GET "/aaron/wordpress/blob/PROJA-001/README.md" for 127.0.0.1 at 2019-03-30 05:39:42 +0000
+Processing by Projects::BlobController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Completed 200 OK in 2529ms (Views: 1368.6ms | ActiveRecord: 289.2ms)
+Started GET "/aaron/wordpress/blob/PROJA-001/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:39:45 +0000
+Started GET "/aaron/wordpress/commit/b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30/pipelines?ref=PROJA-001" for 127.0.0.1 at 2019-03-30 05:39:45 +0000
+Started GET "/aaron/wordpress/commits/b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30/signatures" for 127.0.0.1 at 2019-03-30 05:39:45 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30"}
+Processing by Projects::CommitController#pipelines as JSON
+  Parameters: {"ref"=>"PROJA-001", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30"}
+Completed 200 OK in 909ms (Views: 0.5ms | ActiveRecord: 170.8ms)
+Completed 200 OK in 1259ms (Views: 1.9ms | ActiveRecord: 70.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:39:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 1803ms (Views: 2.9ms | ActiveRecord: 1068.3ms)
+Started GET "/aaron/wordpress/edit/PROJA-001/README.md" for 127.0.0.1 at 2019-03-30 05:39:47 +0000
+Processing by Projects::BlobController#edit as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Completed 200 OK in 1222ms (Views: 392.0ms | ActiveRecord: 70.7ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:39:59 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 264ms (Views: 257.7ms | ActiveRecord: 2.5ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:40:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started PUT "/aaron/wordpress/update/PROJA-001/README.md" for 127.0.0.1 at 2019-03-30 05:40:14 +0000
+Processing by Projects::BlobController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "file_path"=>"README.md", "encoding"=>"text", "commit_message"=>"Update README.md", "branch_name"=>"PROJA-001", "original_branch"=>"PROJA-001", "last_commit_sha"=>"b22fb8bb3c6c49b396c9f9a47072f02f2fea5f30", "content"=>"[FILTERED]", "from_merge_request_iid"=>"", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:40:15 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:40:16 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:40:16 +0000
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:40:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+Redirected to http://localhost:8080/aaron/wordpress/blob/PROJA-001/README.md
+Completed 302 Found in 3213ms (ActiveRecord: 88.5ms)
+Started GET "/aaron/wordpress/blob/PROJA-001/README.md" for 127.0.0.1 at 2019-03-30 05:40:17 +0000
+Processing by Projects::BlobController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Completed 200 OK in 9014ms (Views: 7532.0ms | ActiveRecord: 618.2ms)
+Started GET "/aaron/wordpress/commits/ad758edcf2eff276b7e981061f87503ff97b13bb/signatures" for 127.0.0.1 at 2019-03-30 05:40:26 +0000
+Started GET "/aaron/wordpress/blob/PROJA-001/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:40:26 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"PROJA-001/README.md"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"ad758edcf2eff276b7e981061f87503ff97b13bb"}
+Completed 200 OK in 999ms (Views: 0.3ms | ActiveRecord: 157.8ms)
+Completed 200 OK in 1278ms (Views: 0.4ms | ActiveRecord: 63.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:40:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/new?merge_request%5Bsource_branch%5D=PROJA-001&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1" for 127.0.0.1 at 2019-03-30 05:40:33 +0000
+Processing by Projects::MergeRequests::CreationsController#new as HTML
+  Parameters: {"merge_request"=>{"source_branch"=>"PROJA-001", "source_project_id"=>"1", "target_branch"=>"master", "target_project_id"=>"1"}, "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 3521ms (Views: 1826.8ms | ActiveRecord: 384.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:40:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 22ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:40:59 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 254ms (Views: 246.8ms | ActiveRecord: 3.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:41:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/autocomplete/users.json?search=&active=true&project_id=1&current_user=true" for 127.0.0.1 at 2019-03-30 05:41:04 +0000
+Processing by AutocompleteController#users as JSON
+  Parameters: {"search"=>"", "active"=>"true", "project_id"=>"1", "current_user"=>"true"}
+Completed 200 OK in 83ms (Views: 0.3ms | ActiveRecord: 66.7ms)
+Started GET "/aaron/wordpress/milestones.json" for 127.0.0.1 at 2019-03-30 05:41:08 +0000
+Processing by Projects::MilestonesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 88.4ms)
+Started GET "/aaron/wordpress/labels.json?include_ancestor_groups=true" for 127.0.0.1 at 2019-03-30 05:41:10 +0000
+Processing by Projects::LabelsController#index as JSON
+  Parameters: {"include_ancestor_groups"=>"true", "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 158ms (Views: 0.2ms | ActiveRecord: 133.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:41:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:41:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/new/pipelines.json?merge_request%5Bsource_branch%5D=PROJA-001&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1&page=1" for 127.0.0.1 at 2019-03-30 05:41:37 +0000
+Processing by Projects::MergeRequests::CreationsController#pipelines as JSON
+  Parameters: {"merge_request"=>{"source_branch"=>"PROJA-001", "source_project_id"=>"1", "target_branch"=>"master", "target_project_id"=>"1"}, "page"=>"1", "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 2394ms (Views: 1.7ms | ActiveRecord: 907.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:41:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/new/diffs.json?merge_request%5Bsource_branch%5D=PROJA-001&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1" for 127.0.0.1 at 2019-03-30 05:41:50 +0000
+Processing by Projects::MergeRequests::CreationsController#diffs as JSON
+  Parameters: {"merge_request"=>{"source_branch"=>"PROJA-001", "source_project_id"=>"1", "target_branch"=>"master", "target_project_id"=>"1"}, "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 2721ms (Views: 0.7ms | ActiveRecord: 209.5ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:42:00 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 334ms (Views: 326.1ms | ActiveRecord: 3.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:42:02 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/new/diffs?merge_request%5Bsource_branch%5D=PROJA-001&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1&view=parallel" for 127.0.0.1 at 2019-03-30 05:42:05 +0000
+Processing by Projects::MergeRequests::CreationsController#new as HTML
+  Parameters: {"merge_request"=>{"source_branch"=>"PROJA-001", "source_project_id"=>"1", "target_branch"=>"master", "target_project_id"=>"1"}, "view"=>"parallel", "tab"=>"diffs", "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 3278ms (Views: 1596.8ms | ActiveRecord: 341.9ms)
+Started GET "/aaron/wordpress/merge_requests/new/diffs.json?merge_request%5Bsource_branch%5D=PROJA-001&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1&view=parallel" for 127.0.0.1 at 2019-03-30 05:42:09 +0000
+Processing by Projects::MergeRequests::CreationsController#diffs as JSON
+  Parameters: {"merge_request"=>{"source_branch"=>"PROJA-001", "source_project_id"=>"1", "target_branch"=>"master", "target_project_id"=>"1"}, "view"=>"parallel", "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 3297ms (Views: 2.3ms | ActiveRecord: 163.9ms)
+Started POST "/aaron/wordpress/merge_requests" for 127.0.0.1 at 2019-03-30 05:42:15 +0000
+Processing by Projects::MergeRequests::CreationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "merge_request"=>{"title"=>"Update README.md", "description"=>"", "assignee_id"=>"", "label_ids"=>[""], "force_remove_source_branch"=>"0", "squash"=>"0", "lock_version"=>"", "source_project_id"=>"1", "source_branch"=>"PROJA-001", "target_project_id"=>"1", "target_branch"=>"master"}, "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:42:17 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Redirected to http://localhost:8080/aaron/wordpress/merge_requests/1
+Completed 302 Found in 3890ms (ActiveRecord: 1370.1ms)
+Started GET "/aaron/wordpress/merge_requests/1" for 127.0.0.1 at 2019-03-30 05:42:19 +0000
+Processing by Projects::MergeRequestsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 3932ms (Views: 1832.7ms | ActiveRecord: 1580.2ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=sidebar_extras" for 127.0.0.1 at 2019-03-30 05:42:23 +0000
+Started GET "/aaron/wordpress/merge_requests/1/discussions.json" for 127.0.0.1 at 2019-03-30 05:42:23 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"sidebar_extras", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Started GET "/aaron/wordpress/merge_requests/1/ci_environments_status" for 127.0.0.1 at 2019-03-30 05:42:23 +0000
+Started GET "/aaron/wordpress/merge_requests/1/commits.json" for 127.0.0.1 at 2019-03-30 05:42:23 +0000
+Processing by Projects::MergeRequestsController#commits as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Processing by Projects::MergeRequestsController#discussions as JSON
+Processing by Projects::MergeRequestsController#ci_environments_status as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 523ms (Views: 1.5ms | ActiveRecord: 375.9ms)
+Completed 200 OK in 494ms (Views: 1.1ms | ActiveRecord: 365.5ms)
+Completed 200 OK in 634ms (Views: 0.2ms | ActiveRecord: 436.6ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:42:24 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 880ms (Views: 1.4ms | ActiveRecord: 289.8ms)
+Completed 200 OK in 200ms (Views: 0.2ms | ActiveRecord: 151.7ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:42:31 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 141ms (Views: 0.2ms | ActiveRecord: 114.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:42:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:42:33 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 1438ms (Views: 1.3ms | ActiveRecord: 795.3ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:42:37 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 269ms (Views: 0.2ms | ActiveRecord: 211.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:42:43 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 265ms (Views: 0.2ms | ActiveRecord: 199.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:42:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:42:49 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 237ms (Views: 0.2ms | ActiveRecord: 192.8ms)
+Started GET "/aaron/wordpress/merge_requests/1/ci_environments_status" for 127.0.0.1 at 2019-03-30 05:42:53 +0000
+Processing by Projects::MergeRequestsController#ci_environments_status as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 172ms (Views: 0.2ms | ActiveRecord: 136.1ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:42:56 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 215ms (Views: 0.8ms | ActiveRecord: 148.7ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:43:00 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 258ms (Views: 250.6ms | ActiveRecord: 3.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:43:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:02 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 123ms (Views: 0.2ms | ActiveRecord: 98.5ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:43:03 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 1597ms (Views: 1.3ms | ActiveRecord: 922.9ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:08 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 128ms (Views: 0.2ms | ActiveRecord: 103.5ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:15 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 111ms (Views: 0.2ms | ActiveRecord: 80.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:43:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:21 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 132ms (Views: 0.4ms | ActiveRecord: 104.2ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:27 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 300ms (Views: 0.2ms | ActiveRecord: 223.5ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:43:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:43:33 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:34 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 113.2ms)
+Completed 200 OK in 1935ms (Views: 1.2ms | ActiveRecord: 988.1ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:40 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 121ms (Views: 0.2ms | ActiveRecord: 94.6ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:46 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 120ms (Views: 0.2ms | ActiveRecord: 96.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:43:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:52 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 179ms (Views: 0.2ms | ActiveRecord: 144.5ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:43:58 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 120ms (Views: 0.2ms | ActiveRecord: 95.6ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:44:00 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 335ms (Views: 326.8ms | ActiveRecord: 3.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:44:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:44:03 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:05 +0000
+Completed 200 OK in 1529ms (Views: 3.4ms | ActiveRecord: 855.8ms)
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 300ms (Views: 0.3ms | ActiveRecord: 202.1ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:11 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 184ms (Views: 0.4ms | ActiveRecord: 115.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:44:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:17 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 156ms (Views: 0.2ms | ActiveRecord: 107.5ms)
+Started POST "/aaron/wordpress/merge_requests/1/merge" for 127.0.0.1 at 2019-03-30 05:44:21 +0000
+Processing by Projects::MergeRequestsController#merge as JSON
+  Parameters: {"sha"=>"ad758edcf2eff276b7e981061f87503ff97b13bb", "commit_message"=>"Merge branch 'PROJA-001' into 'master'\n\nUpdate README.md\n\nSee merge request aaron/wordpress!1", "merge_when_pipeline_succeeds"=>false, "should_remove_source_branch"=>true, "squash"=>false, "squash_commit_message"=>"Update README.md", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1", "merge_request"=>{"merge_when_pipeline_succeeds"=>false, "squash"=>false}}
+Completed 200 OK in 262ms (Views: 0.5ms | ActiveRecord: 205.4ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:44:21 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 279ms (Views: 0.6ms | ActiveRecord: 211.5ms)
+aaron/wordpress!1 - Git merge started on JID 9c1fa3c50e991113557cb8cb
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:44:22 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:44:23 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:44:23 +0000
+aaron/wordpress!1 - Git merge finished on JID 9c1fa3c50e991113557cb8cb commit f67777c3fe1b20987d770235094bbd3aeb690b2e
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:24 +0000
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:44:24 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+aaron/wordpress!1 - Post merge started on JID 9c1fa3c50e991113557cb8cb with state locked
+Completed 200 OK in 263ms (Views: 0.3ms | ActiveRecord: 166.2ms)
+Completed 200 OK in 252ms (Views: 0.6ms | ActiveRecord: 156.4ms)
+aaron/wordpress!1 - Post merge finished on JID 9c1fa3c50e991113557cb8cb with state merged
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:44:26 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 278ms (Views: 0.4ms | ActiveRecord: 178.2ms)
+Started GET "/aaron/wordpress/merge_requests/1/commit_change_content" for 127.0.0.1 at 2019-03-30 05:44:27 +0000
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:44:27 +0000
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:44:27 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Processing by Projects::MergeRequestsController#commit_change_content as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 491ms (Views: 0.2ms | ActiveRecord: 186.7ms)
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:44:28 +0000
+Completed 200 OK in 1419ms (Views: 995.2ms | ActiveRecord: 357.1ms)
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:44:29 +0000
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:44:29 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 190ms (Views: 0.5ms | ActiveRecord: 130.5ms)
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:44:30 +0000
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:30 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+aaron/wordpress!1 - Merge process finished on JID  with state merged
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:44:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 51ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:44:32 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 1511ms (Views: 3.6ms | ActiveRecord: 1112.5ms)
+Completed 200 OK in 806ms (Views: 1.2ms | ActiveRecord: 258.2ms)
+Updating statistics for project 1
+Completed 200 OK in 7125ms (Views: 73.0ms | ActiveRecord: 4108.7ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:44:34 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Completed 200 OK in 3464ms (Views: 2.7ms | ActiveRecord: 2151.0ms)
+Started GET "/aaron/wordpress/merge_requests/1.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:44:38 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"1"}
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:38 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Completed 200 OK in 200ms (Views: 1.0ms | ActiveRecord: 137.2ms)
+Completed 200 OK in 2527ms (Views: 2.6ms | ActiveRecord: 1620.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/1/notes" for 127.0.0.1 at 2019-03-30 05:44:44 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"1"}
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:44:44 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 165ms (Views: 0.2ms | ActiveRecord: 118.9ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:44:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 4093ms (Views: 2683.9ms | ActiveRecord: 1006.9ms)
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:44:49 +0000
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 05:44:49 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:44:49 +0000
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Completed 200 OK in 1373ms (Views: 11.2ms | ActiveRecord: 113.3ms)
+Completed 200 OK in 1573ms (Views: 0.2ms | ActiveRecord: 521.2ms)
+Completed 200 OK in 1627ms (Views: 0.4ms | ActiveRecord: 76.7ms)
+Started GET "/aaron/wordpress/refs?sort=updated_desc&ref=master&search=" for 127.0.0.1 at 2019-03-30 05:44:52 +0000
+Processing by ProjectsController#refs as JSON
+  Parameters: {"sort"=>"updated_desc", "ref"=>"master", "search"=>"", "namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 244ms (Views: 0.1ms | ActiveRecord: 38.2ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:45:01 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 264ms (Views: 252.7ms | ActiveRecord: 3.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:45:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commits/master" for 127.0.0.1 at 2019-03-30 05:45:12 +0000
+Processing by Projects::CommitsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 2169ms (Views: 1177.1ms | ActiveRecord: 478.8ms)
+Started GET "/aaron/wordpress/commits/master/signatures?utf8=%E2%9C%93&search=" for 127.0.0.1 at 2019-03-30 05:45:15 +0000
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"utf8"=>"✓", "search"=>"", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 787ms (Views: 0.2ms | ActiveRecord: 238.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:45:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e" for 127.0.0.1 at 2019-03-30 05:45:22 +0000
+Processing by Projects::CommitController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Completed 200 OK in 2837ms (Views: 1716.2ms | ActiveRecord: 951.2ms)
+Started GET "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/merge_requests.json" for 127.0.0.1 at 2019-03-30 05:45:25 +0000
+Started GET "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/branches" for 127.0.0.1 at 2019-03-30 05:45:25 +0000
+Processing by Projects::CommitController#branches as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Processing by Projects::CommitController#merge_requests as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Completed 200 OK in 392ms (Views: 1.1ms | ActiveRecord: 173.2ms)
+Completed 200 OK in 652ms (Views: 66.7ms | ActiveRecord: 103.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:45:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/notes?html=true" for 127.0.0.1 at 2019-03-30 05:45:40 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"html"=>"true", "namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"commit", "target_id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Completed 200 OK in 185ms (Views: 0.2ms | ActiveRecord: 42.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:45:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/branches" for 127.0.0.1 at 2019-03-30 05:46:01 +0000
+Processing by Projects::BranchesController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:46:01 +0000
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:46:01 +0000
+Processing by MetricsController#index as HTML
+Processing by HelpController#index as */*
+Completed 200 OK in 27ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 618ms (Views: 603.8ms | ActiveRecord: 3.8ms)
+Completed 200 OK in 1852ms (Views: 531.3ms | ActiveRecord: 129.6ms)
+Started GET "/aaron/wordpress/branches/all" for 127.0.0.1 at 2019-03-30 05:46:08 +0000
+Processing by Projects::BranchesController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "state"=>"all"}
+Completed 200 OK in 1262ms (Views: 155.7ms | ActiveRecord: 119.5ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:46:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:46:28 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 1851ms (Views: 1013.7ms | ActiveRecord: 496.2ms)
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:46:30 +0000
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 05:46:30 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:46:30 +0000
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:46:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 50ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 1325ms (Views: 0.8ms | ActiveRecord: 73.2ms)
+Completed 200 OK in 1361ms (Views: 0.2ms | ActiveRecord: 383.6ms)
+Completed 200 OK in 1418ms (Views: 217.9ms | ActiveRecord: 159.9ms)
+Started GET "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e" for 127.0.0.1 at 2019-03-30 05:46:35 +0000
+Processing by Projects::CommitController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Completed 200 OK in 3271ms (Views: 2151.1ms | ActiveRecord: 944.5ms)
+Started GET "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/branches" for 127.0.0.1 at 2019-03-30 05:46:38 +0000
+Started GET "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/merge_requests.json" for 127.0.0.1 at 2019-03-30 05:46:38 +0000
+Processing by Projects::CommitController#merge_requests as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Processing by Projects::CommitController#branches as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Completed 200 OK in 400ms (Views: 0.1ms | ActiveRecord: 185.2ms)
+Completed 200 OK in 611ms (Views: 32.6ms | ActiveRecord: 106.4ms)
+Started GET "/aaron/wordpress/branches?search=" for 127.0.0.1 at 2019-03-30 05:46:45 +0000
+Processing by Projects::BranchesController#index as JSON
+  Parameters: {"search"=>"", "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 211ms (Views: 0.1ms | ActiveRecord: 32.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:46:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started POST "/aaron/wordpress/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/revert" for 127.0.0.1 at 2019-03-30 05:46:52 +0000
+Processing by Projects::CommitController#revert as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "start_branch"=>"master", "create_merge_request"=>"1", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:46:53 +0000
+Started GET "/aaron/wordpress/noteable/commit/f67777c3fe1b20987d770235094bbd3aeb690b2e/notes?html=true" for 127.0.0.1 at 2019-03-30 05:46:53 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:46:53 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"html"=>"true", "namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"commit", "target_id"=>"f67777c3fe1b20987d770235094bbd3aeb690b2e"}
+Completed 200 OK in 277ms (Views: 0.2ms | ActiveRecord: 60.5ms)
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:46:54 +0000
+Redirected to http://localhost:8080/aaron/wordpress/merge_requests/new?merge_request%5Bsource_branch%5D=revert-f67777c3&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1
+Completed 302 Found in 2660ms (ActiveRecord: 146.2ms)
+Started GET "/aaron/wordpress/merge_requests/new?merge_request%5Bsource_branch%5D=revert-f67777c3&merge_request%5Bsource_project_id%5D=1&merge_request%5Btarget_branch%5D=master&merge_request%5Btarget_project_id%5D=1" for 127.0.0.1 at 2019-03-30 05:46:54 +0000
+Processing by Projects::MergeRequests::CreationsController#new as HTML
+  Parameters: {"merge_request"=>{"source_branch"=>"revert-f67777c3", "source_project_id"=>"1", "target_branch"=>"master", "target_project_id"=>"1"}, "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:47:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 35ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 7090ms (Views: 3784.7ms | ActiveRecord: 701.7ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:47:02 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 235ms (Views: 228.3ms | ActiveRecord: 2.8ms)
+Started POST "/aaron/wordpress/merge_requests" for 127.0.0.1 at 2019-03-30 05:47:10 +0000
+Processing by Projects::MergeRequests::CreationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "merge_request"=>{"title"=>"Revert \"Merge branch 'PROJA-001' into 'master'\"", "description"=>"This reverts merge request !1", "assignee_id"=>"", "label_ids"=>[""], "force_remove_source_branch"=>"0", "squash"=>"0", "lock_version"=>"", "source_project_id"=>"1", "source_branch"=>"revert-f67777c3", "target_project_id"=>"1", "target_branch"=>"master"}, "namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Redirected to http://localhost:8080/aaron/wordpress/merge_requests/2
+Completed 302 Found in 3686ms (ActiveRecord: 1138.9ms)
+Started GET "/aaron/wordpress/merge_requests/2" for 127.0.0.1 at 2019-03-30 05:47:14 +0000
+Processing by Projects::MergeRequestsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:47:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 3652ms (Views: 1710.8ms | ActiveRecord: 1543.9ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=sidebar_extras" for 127.0.0.1 at 2019-03-30 05:47:18 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"sidebar_extras", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Started GET "/aaron/wordpress/merge_requests/2/discussions.json" for 127.0.0.1 at 2019-03-30 05:47:18 +0000
+Started GET "/aaron/wordpress/merge_requests/2/ci_environments_status" for 127.0.0.1 at 2019-03-30 05:47:18 +0000
+Processing by Projects::MergeRequestsController#discussions as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Processing by Projects::MergeRequestsController#ci_environments_status as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Completed 200 OK in 350ms (Views: 0.3ms | ActiveRecord: 256.1ms)
+Completed 200 OK in 244ms (Views: 0.8ms | ActiveRecord: 172.9ms)
+Completed 200 OK in 375ms (Views: 0.2ms | ActiveRecord: 284.5ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:18 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 140ms (Views: 0.2ms | ActiveRecord: 113.3ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:25 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 124ms (Views: 0.2ms | ActiveRecord: 100.0ms)
+Started GET "/aaron/wordpress/merge_requests/2/diffs.json" for 127.0.0.1 at 2019-03-30 05:47:26 +0000
+Processing by Projects::MergeRequests::DiffsController#show as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Completed 200 OK in 1207ms (Views: 1.7ms | ActiveRecord: 249.3ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:47:28 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Completed 200 OK in 1544ms (Views: 1.2ms | ActiveRecord: 922.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:31 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 128ms (Views: 0.2ms | ActiveRecord: 104.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:47:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:37 +0000
+Started POST "/aaron/wordpress/merge_requests/2/merge" for 127.0.0.1 at 2019-03-30 05:47:37 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Processing by Projects::MergeRequestsController#merge as JSON
+  Parameters: {"sha"=>"efc54a84c9fe5f2c219ece1e5a7e65e3aed7646f", "commit_message"=>"Merge branch 'revert-f67777c3' into 'master'\n\nRevert \"Merge branch 'PROJA-001' into 'master'\"\n\nSee merge request aaron/wordpress!2", "merge_when_pipeline_succeeds"=>false, "should_remove_source_branch"=>false, "squash"=>false, "squash_commit_message"=>"Revert \"Merge branch 'PROJA-001' into 'master'\"\n\nThis reverts merge request !1", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2", "merge_request"=>{"merge_when_pipeline_succeeds"=>false, "squash"=>false}}
+Completed 200 OK in 274ms (Views: 0.4ms | ActiveRecord: 115.9ms)
+Completed 200 OK in 345ms (Views: 0.4ms | ActiveRecord: 242.0ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:47:38 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+aaron/wordpress!2 - Git merge started on JID acfefb394e70897b96095793
+Completed 200 OK in 290ms (Views: 0.3ms | ActiveRecord: 218.3ms)
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:47:39 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:47:39 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:47:40 +0000
+aaron/wordpress!2 - Git merge finished on JID acfefb394e70897b96095793 commit 6a5735b96d512bc2973212aad14a6abe1e392ac6
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:47:40 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+aaron/wordpress!2 - Post merge started on JID acfefb394e70897b96095793 with state locked
+Completed 200 OK in 429ms (Views: 3.9ms | ActiveRecord: 300.3ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=basic" for 127.0.0.1 at 2019-03-30 05:47:43 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"basic", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+aaron/wordpress!2 - Post merge finished on JID acfefb394e70897b96095793 with state merged
+aaron/wordpress!2 - Merge process finished on JID  with state merged
+Completed 200 OK in 278ms (Views: 0.4ms | ActiveRecord: 139.8ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:47:43 +0000
+Started GET "/aaron/wordpress/merge_requests/2/commit_change_content" for 127.0.0.1 at 2019-03-30 05:47:43 +0000
+Processing by Projects::MergeRequestsController#commit_change_content as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:44 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 807ms (Views: 497.1ms | ActiveRecord: 254.7ms)
+Completed 200 OK in 706ms (Views: 1.4ms | ActiveRecord: 443.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:47:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 46ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/merge_requests/2/ci_environments_status" for 127.0.0.1 at 2019-03-30 05:47:48 +0000
+Processing by Projects::MergeRequestsController#ci_environments_status as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Completed 200 OK in 5107ms (Views: 16.1ms | ActiveRecord: 2662.4ms)
+Completed 200 OK in 485ms (Views: 1.4ms | ActiveRecord: 352.2ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:50 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 633ms (Views: 3.9ms | ActiveRecord: 439.6ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:47:57 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 136ms (Views: 0.2ms | ActiveRecord: 107.1ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:47:58 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Completed 200 OK in 2478ms (Views: 2.4ms | ActiveRecord: 1530.4ms)
+Started DELETE "/aaron/wordpress/branches/revert-f67777c3" for 127.0.0.1 at 2019-03-30 05:48:01 +0000
+Processing by Projects::BranchesController#destroy as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"revert-f67777c3"}
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:48:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started POST "/api/v4/internal/allowed" for 127.0.0.1 at 2019-03-30 05:48:01 +0000
+Started POST "/api/v4/internal/pre_receive" for 127.0.0.1 at 2019-03-30 05:48:02 +0000
+Started POST "/api/v4/internal/post_receive" for 127.0.0.1 at 2019-03-30 05:48:02 +0000
+Completed 200 OK in 1641ms (Views: 0.4ms | ActiveRecord: 33.2ms)
+Started GET "/aaron/wordpress/merge_requests/2.json?serializer=widget" for 127.0.0.1 at 2019-03-30 05:48:02 +0000
+Processing by Projects::MergeRequestsController#show as JSON
+  Parameters: {"serializer"=>"widget", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"2"}
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:48:03 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 729ms (Views: 708.3ms | ActiveRecord: 8.2ms)
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:48:03 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 150ms (Views: 0.7ms | ActiveRecord: 107.9ms)
+Completed 200 OK in 3134ms (Views: 2.9ms | ActiveRecord: 1778.6ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:48:07 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Started GET "/aaron/wordpress/noteable/merge_request/2/notes" for 127.0.0.1 at 2019-03-30 05:48:10 +0000
+Processing by Projects::NotesController#index as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "target_type"=>"merge_request", "target_id"=>"2"}
+Completed 200 OK in 176ms (Views: 0.2ms | ActiveRecord: 121.0ms)
+Completed 200 OK in 4370ms (Views: 2879.4ms | ActiveRecord: 1050.3ms)
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:48:12 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:48:12 +0000
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 05:48:12 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1408ms (Views: 0.9ms | ActiveRecord: 72.0ms)
+Completed 200 OK in 1472ms (Views: 273.4ms | ActiveRecord: 118.8ms)
+Completed 200 OK in 1708ms (Views: 0.2ms | ActiveRecord: 447.9ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:48:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/commits/master" for 127.0.0.1 at 2019-03-30 05:48:26 +0000
+Processing by Projects::CommitsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1592ms (Views: 336.3ms | ActiveRecord: 394.2ms)
+Started GET "/aaron/wordpress/commits/master/signatures?utf8=%E2%9C%93&search=" for 127.0.0.1 at 2019-03-30 05:48:28 +0000
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"utf8"=>"✓", "search"=>"", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1106ms (Views: 0.2ms | ActiveRecord: 266.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:48:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/refs?sort=updated_desc&ref=master&search=" for 127.0.0.1 at 2019-03-30 05:48:33 +0000
+Processing by ProjectsController#refs as JSON
+  Parameters: {"sort"=>"updated_desc", "ref"=>"master", "search"=>"", "namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 221ms (Views: 0.1ms | ActiveRecord: 38.3ms)
+Started GET "/aaron/wordpress/commits/master" for 127.0.0.1 at 2019-03-30 05:48:36 +0000
+Processing by Projects::CommitsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1733ms (Views: 472.3ms | ActiveRecord: 400.8ms)
+Started GET "/aaron/wordpress/commits/master/signatures?utf8=%E2%9C%93&search=" for 127.0.0.1 at 2019-03-30 05:48:38 +0000
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"utf8"=>"✓", "search"=>"", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1023ms (Views: 0.5ms | ActiveRecord: 255.4ms)
+Started GET "/aaron/wordpress/network/master" for 127.0.0.1 at 2019-03-30 05:48:41 +0000
+Processing by Projects::NetworkController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 547ms (Views: 194.0ms | ActiveRecord: 105.9ms)
+Started GET "/aaron/wordpress/network/master?format=json" for 127.0.0.1 at 2019-03-30 05:48:42 +0000
+Processing by Projects::NetworkController#show as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1310ms (Views: 36.6ms | ActiveRecord: 106.4ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:48:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:49:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 30ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:49:03 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 920ms (Views: 910.3ms | ActiveRecord: 2.7ms)
+Started GET "/aaron/wordpress/graphs/master/charts" for 127.0.0.1 at 2019-03-30 05:49:11 +0000
+Processing by Projects::GraphsController#charts as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 4234ms (Views: 268.1ms | ActiveRecord: 117.1ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:49:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 33ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:49:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 05:49:32 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 2117ms (Views: 1252.6ms | ActiveRecord: 503.7ms)
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 05:49:34 +0000
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 05:49:34 +0000
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 05:49:34 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Processing by Projects::RefsController#logs_tree as JS
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1185ms (Views: 6.3ms | ActiveRecord: 113.4ms)
+Completed 200 OK in 1352ms (Views: 0.8ms | ActiveRecord: 59.8ms)
+Completed 200 OK in 1569ms (Views: 0.2ms | ActiveRecord: 412.8ms)
+Started GET "/dashboard/milestones" for 127.0.0.1 at 2019-03-30 05:49:41 +0000
+Processing by Dashboard::MilestonesController#index as HTML
+Completed 200 OK in 858ms (Views: 407.3ms | ActiveRecord: 392.5ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 05:49:46 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:49:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.6ms)
+Write fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (1.2ms)
+Completed 200 OK in 1117ms (Views: 695.8ms | ActiveRecord: 381.8ms)
+Started GET "/dashboard/projects?personal=true&sort=latest_activity_desc" for 127.0.0.1 at 2019-03-30 05:49:50 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Parameters: {"personal"=>"true", "sort"=>"latest_activity_desc"}
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.7ms)
+Completed 200 OK in 676ms (Views: 434.8ms | ActiveRecord: 191.1ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 05:49:51 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.7ms)
+Completed 200 OK in 809ms (Views: 578.6ms | ActiveRecord: 202.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:50:01 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2019-03-30 05:50:04 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 648ms (Views: 633.1ms | ActiveRecord: 4.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:50:16 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:50:31 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:50:46 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 05:51:26 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 36ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 13:45:05 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 132ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:36:32 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 134ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:36:47 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 67ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:37:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2019-03-30 14:37:07 +0000
+Processing by RootController#index as HTML
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/root/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.6ms)
+Write fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/root/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (1.0ms)
+Completed 200 OK in 2722ms (Views: 1757.5ms | ActiveRecord: 759.2ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:37:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 185ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 14:37:30 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Completed 200 OK in 3495ms (Views: 1980.3ms | ActiveRecord: 616.5ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:37:34 +0000
+Started GET "/aaron/wordpress/blob/master/README.md?format=json&viewer=rich" for 127.0.0.1 at 2019-03-30 14:37:34 +0000
+Started GET "/aaron/wordpress/refs/master/logs_tree/?format=js" for 127.0.0.1 at 2019-03-30 14:37:34 +0000
+Started GET "/aaron/wordpress/commits/master/signatures" for 127.0.0.1 at 2019-03-30 14:37:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 32ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Processing by Projects::RefsController#logs_tree as JS
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master/README.md"}
+Processing by Projects::CommitsController#signatures as JSON
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress", "id"=>"master"}
+Completed 200 OK in 1419ms (Views: 33.1ms | ActiveRecord: 111.7ms)
+Completed 200 OK in 1539ms (Views: 1.5ms | ActiveRecord: 56.4ms)
+Completed 200 OK in 1819ms (Views: 0.9ms | ActiveRecord: 431.9ms)
+Started GET "/aaron/wordpress/clusters/new" for 127.0.0.1 at 2019-03-30 14:37:39 +0000
+Processing by Projects::ClustersController#new as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 938ms (Views: 549.5ms | ActiveRecord: 173.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:37:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 33ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:38:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/serverless/functions" for 127.0.0.1 at 2019-03-30 14:38:14 +0000
+Processing by Projects::Serverless::FunctionsController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 523ms (Views: 332.1ms | ActiveRecord: 133.5ms)
+Started GET "/aaron/wordpress/clusters" for 127.0.0.1 at 2019-03-30 14:38:18 +0000
+Processing by Projects::ClustersController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 554ms (Views: 339.4ms | ActiveRecord: 161.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:38:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 25ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started POST "/-/user_callouts" for 127.0.0.1 at 2019-03-30 14:38:27 +0000
+Processing by UserCalloutsController#create as JSON
+  Parameters: {"feature_name"=>"gcp_signup_offer", "user_callout"=>{"feature_name"=>"gcp_signup_offer"}}
+Completed 200 OK in 110ms (ActiveRecord: 90.1ms)
+Started GET "/aaron/wordpress/serverless/functions" for 127.0.0.1 at 2019-03-30 14:38:30 +0000
+Processing by Projects::Serverless::FunctionsController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 500ms (Views: 209.3ms | ActiveRecord: 240.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:38:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress/clusters" for 127.0.0.1 at 2019-03-30 14:38:45 +0000
+Processing by Projects::ClustersController#index as HTML
+  Parameters: {"namespace_id"=>"aaron", "project_id"=>"wordpress"}
+Completed 200 OK in 572ms (Views: 244.8ms | ActiveRecord: 270.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:38:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 40ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 14:39:01 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.8ms)
+Completed 200 OK in 1017ms (Views: 724.1ms | ActiveRecord: 203.7ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:39:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/dashboard/projects/starred" for 127.0.0.1 at 2019-03-30 14:39:08 +0000
+Processing by Dashboard::ProjectsController#starred as HTML
+Completed 200 OK in 449ms (Views: 182.0ms | ActiveRecord: 134.6ms)
+Started GET "/explore" for 127.0.0.1 at 2019-03-30 14:39:10 +0000
+Processing by Explore::ProjectsController#trending as HTML
+Completed 200 OK in 507ms (Views: 353.4ms | ActiveRecord: 128.0ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 14:39:15 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.7ms)
+Completed 200 OK in 622ms (Views: 407.5ms | ActiveRecord: 160.3ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:39:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started GET "/groups/new" for 127.0.0.1 at 2019-03-30 14:39:20 +0000
+Processing by GroupsController#new as HTML
+Completed 200 OK in 519ms (Views: 439.5ms | ActiveRecord: 34.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:39:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 39ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 14:39:48 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.5ms)
+Completed 200 OK in 422ms (Views: 213.5ms | ActiveRecord: 174.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:39:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/aaron/wordpress" for 127.0.0.1 at 2019-03-30 14:39:51 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"aaron", "id"=>"wordpress"}
+Started GET "/dashboard/projects?personal=true&sort=latest_activity_desc" for 127.0.0.1 at 2019-03-30 14:39:54 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Parameters: {"personal"=>"true", "sort"=>"latest_activity_desc"}
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (1.1ms)
+Completed 200 OK in 568ms (Views: 294.5ms | ActiveRecord: 195.2ms)
+Completed 200 OK in 4620ms (Views: 2978.6ms | ActiveRecord: 1161.2ms)
+Started GET "/dashboard/projects" for 127.0.0.1 at 2019-03-30 14:39:57 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/projects/index/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.7ms)
+Completed 200 OK in 677ms (Views: 513.6ms | ActiveRecord: 136.4ms)
+Started GET "/dashboard/issues?assignee_username=aaron" for 127.0.0.1 at 2019-03-30 14:40:00 +0000
+Processing by DashboardController#issues as HTML
+  Parameters: {"assignee_username"=>"aaron"}
+Completed 200 OK in 913ms (Views: 605.2ms | ActiveRecord: 264.3ms)
+Started GET "/api/v4/users.json?search=&per_page=20&username=aaron" for 127.0.0.1 at 2019-03-30 14:40:01 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+  Parameters: {"search"=>"", "per_page"=>"20", "username"=>"aaron"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:40:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 21ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/api/v4/projects.json?search=&per_page=20&simple=true&membership=true&order_by=last_activity_at&with_issues_enabled=true" for 127.0.0.1 at 2019-03-30 14:40:09 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+  Parameters: {"search"=>"", "per_page"=>"20", "simple"=>"true", "membership"=>"true", "order_by"=>"last_activity_at", "with_issues_enabled"=>"true"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Started GET "/dashboard/merge_requests?assignee_username=aaron" for 127.0.0.1 at 2019-03-30 14:40:12 +0000
+Processing by DashboardController#merge_requests as HTML
+  Parameters: {"assignee_username"=>"aaron"}
+Completed 200 OK in 981ms (Views: 695.8ms | ActiveRecord: 176.1ms)
+Started GET "/api/v4/users.json?search=&per_page=20&username=aaron" for 127.0.0.1 at 2019-03-30 14:40:13 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as JSON
+  Parameters: {"search"=>"", "per_page"=>"20", "username"=>"aaron"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Started GET "/dashboard/todos" for 127.0.0.1 at 2019-03-30 14:40:16 +0000
+Processing by Dashboard::TodosController#index as HTML
+Completed 200 OK in 206ms (Views: 102.4ms | ActiveRecord: 69.8ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:40:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 21ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started GET "/aaron" for 127.0.0.1 at 2019-03-30 14:40:26 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"username"=>"aaron"}
+Completed 200 OK in 161ms (Views: 137.6ms | ActiveRecord: 29.5ms)
+Started GET "/users/aaron/calendar.json" for 127.0.0.1 at 2019-03-30 14:40:27 +0000
+Started GET "/aaron?limit=10" for 127.0.0.1 at 2019-03-30 14:40:27 +0000
+Started GET "/users/aaron/projects?limit=10&skip_pagination=true&skip_namespace=true&compact_mode=true" for 127.0.0.1 at 2019-03-30 14:40:27 +0000
+Processing by UsersController#projects as JSON
+  Parameters: {"limit"=>"10", "skip_pagination"=>"true", "skip_namespace"=>"true", "compact_mode"=>"true", "username"=>"aaron"}
+Processing by UsersController#calendar as JSON
+  Parameters: {"username"=>"aaron"}
+Processing by UsersController#show as JSON
+  Parameters: {"limit"=>"10", "username"=>"aaron"}
+Completed 200 OK in 574ms (Views: 1.9ms | ActiveRecord: 381.7ms)
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/users/projects/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (0.6ms)
+Write fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/users/projects/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (1.5ms)
+Completed 200 OK in 950ms (Views: 0.6ms | ActiveRecord: 357.4ms)
+Completed 200 OK in 1440ms (Views: 4.5ms | ActiveRecord: 420.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:40:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 24ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/users/aaron/contributed.json" for 127.0.0.1 at 2019-03-30 14:40:40 +0000
+Processing by UsersController#contributed as JSON
+  Parameters: {"username"=>"aaron"}
+Completed 200 OK in 339ms (Views: 0.2ms | ActiveRecord: 259.1ms)
+Started GET "/users/aaron/projects.json?skip_namespace=true" for 127.0.0.1 at 2019-03-30 14:40:43 +0000
+Processing by UsersController#projects as JSON
+  Parameters: {"skip_namespace"=>"true", "username"=>"aaron"}
+Read fragment views/routes/3-20190330052721189660/projects/1-20190330052721110188/25/44/5/30/3/2019/6/89/false/UTC/users/projects/application_settings/1-20190330052242140756/cross-project:true/access:40/v2.6/pipeline-status/6a5735b96d512bc2973212aad14a6abe1e392ac6-pending/871806415e42d29a3ff99277c3ad9123 (1.6ms)
+Completed 200 OK in 772ms (Views: 0.5ms | ActiveRecord: 263.7ms)
+Started GET "/users/aaron/snippets.json" for 127.0.0.1 at 2019-03-30 14:40:45 +0000
+Processing by UsersController#snippets as JSON
+  Parameters: {"username"=>"aaron"}
+Completed 200 OK in 295ms (Views: 0.4ms | ActiveRecord: 185.6ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:40:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:41:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 22ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:41:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:41:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 24ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:41:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 29ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:42:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:42:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:42:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:42:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:43:04 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 90ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:43:19 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:43:34 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:43:49 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:44:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:44:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:44:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:44:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:45:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:45:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:45:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:45:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:46:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:46:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:46:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:46:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 23ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:47:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:47:18 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:47:33 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:47:48 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2019-03-30 14:48:03 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 0.0ms)

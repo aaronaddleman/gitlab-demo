@@ -1,0 +1,13 @@
+{
+	"ulid": "01D77GFPGMFVWQ3TXRKEQP6APG",
+	"minTime": 1553932800000,
+	"maxTime": 1553940000000,
+	"stats": {},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01D77GFPGMFVWQ3TXRKEQP6APG"
+		]
+	},
+	"version": 1
+}

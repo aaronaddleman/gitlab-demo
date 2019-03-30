@@ -1,0 +1,13 @@
+{
+	"ulid": "01D77GFP2CERAX6W9N91NZE8EA",
+	"minTime": 1553925600000,
+	"maxTime": 1553932800000,
+	"stats": {},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01D77GFP2CERAX6W9N91NZE8EA"
+		]
+	},
+	"version": 1
+}
