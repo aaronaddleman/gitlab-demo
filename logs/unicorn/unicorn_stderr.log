@@ -1,12 +1,22 @@
-I, [2019-03-30T05:22:59.819878 #1266]  INFO -- : Refreshing Gem list
-I, [2019-03-30T05:23:27.827120 #1266]  INFO -- : listening on addr=127.0.0.1:8080 fd=22
-I, [2019-03-30T05:23:27.832390 #1266]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=23
-I, [2019-03-30T05:23:27.977284 #1453]  INFO -- : worker=0 ready
-I, [2019-03-30T05:23:27.984727 #1456]  INFO -- : worker=1 ready
-I, [2019-03-30T05:23:27.998596 #1266]  INFO -- : master process ready
-I, [2019-03-30T05:23:28.006746 #1459]  INFO -- : worker=2 ready
-I, [2019-03-30T05:23:28.022729 #1462]  INFO -- : worker=3 ready
-I, [2019-03-30T05:23:28.043030 #1465]  INFO -- : worker=4 ready
-I, [2019-03-30T05:23:28.072565 #1470]  INFO -- : worker=5 ready
-I, [2019-03-30T05:23:28.084117 #1477]  INFO -- : worker=6 ready
-I, [2019-03-30T05:23:28.092235 #1480]  INFO -- : worker=7 ready
+I, [2019-04-02T15:22:38.656956 #643]  INFO -- : Refreshing Gem list
+I, [2019-04-02T15:23:17.116156 #643]  INFO -- : listening on addr=127.0.0.1:8080 fd=15
+I, [2019-04-02T15:23:17.119859 #643]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2019-04-02T15:23:17.123356 #643]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2019-04-02T15:23:17.204950 #853]  INFO -- : worker=0 ready
+I, [2019-04-02T15:23:17.216097 #856]  INFO -- : worker=1 ready
+I, [2019-04-02T15:23:17.224495 #859]  INFO -- : worker=2 ready
+I, [2019-04-02T15:23:17.233454 #862]  INFO -- : worker=3 ready
+I, [2019-04-02T15:23:17.241893 #865]  INFO -- : worker=4 ready
+I, [2019-04-02T15:23:17.250377 #868]  INFO -- : worker=5 ready
+I, [2019-04-02T15:23:17.259180 #871]  INFO -- : worker=6 ready
+I, [2019-04-02T15:23:17.264334 #643]  INFO -- : master process ready
+I, [2019-04-02T15:23:17.267009 #874]  INFO -- : worker=7 ready
+I, [2019-04-02T16:21:27.963569 #643]  INFO -- : reaped #<Process::Status: pid 853 exit 0> worker=0
+I, [2019-04-02T16:21:27.977892 #643]  INFO -- : reaped #<Process::Status: pid 856 exit 0> worker=1
+I, [2019-04-02T16:21:27.984183 #643]  INFO -- : reaped #<Process::Status: pid 859 exit 0> worker=2
+I, [2019-04-02T16:21:27.987530 #643]  INFO -- : reaped #<Process::Status: pid 862 exit 0> worker=3
+I, [2019-04-02T16:21:27.989316 #643]  INFO -- : reaped #<Process::Status: pid 865 exit 0> worker=4
+I, [2019-04-02T16:21:27.991345 #643]  INFO -- : reaped #<Process::Status: pid 868 exit 0> worker=5
+I, [2019-04-02T16:21:27.994391 #643]  INFO -- : reaped #<Process::Status: pid 871 exit 0> worker=6
+I, [2019-04-02T16:21:27.996211 #643]  INFO -- : reaped #<Process::Status: pid 874 exit 0> worker=7
+I, [2019-04-02T16:21:28.003424 #643]  INFO -- : master complete

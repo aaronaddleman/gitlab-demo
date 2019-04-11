@@ -1,51 +1,67 @@
-2019-03-30_05:21:48.21524 LOG:  database system was shut down at 2019-03-30 05:21:39 GMT
-2019-03-30_05:21:48.26275 LOG:  MultiXact member wraparound protections are now enabled
-2019-03-30_05:21:48.27695 LOG:  database system is ready to accept connections
-2019-03-30_05:21:48.27792 LOG:  autovacuum launcher started
-2019-03-30_14:42:27.01696 LOG:  stats_timestamp 2019-03-30 14:42:27.017888+00 is later than collector's time 2019-03-30 14:42:27.013561+00 for database 12405
-2019-03-30_14:48:14.00340 received TERM from runit, sending INT instead to force quit connections
-2019-03-30_14:48:14.00639 LOG:  received fast shutdown request
-2019-03-30_14:48:14.05849 LOG:  aborting any active transactions
-2019-03-30_14:48:14.09561 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.09764 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.10909 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.11455 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.12978 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.13549 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.14936 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.15283 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.15482 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.15963 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.16384 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.17003 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.17576 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.18058 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.18423 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.18928 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.19383 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.19861 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.20282 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.20672 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.21018 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
-2019-03-30_14:48:14.21453 	       relname as relname,
-2019-03-30_14:48:14.21871 	       pg_total_relation_size(oid) bytes
-2019-03-30_14:48:14.22291 	  FROM pg_class
-2019-03-30_14:48:14.22620 	 WHERE relkind = 'r';
-2019-03-30_14:48:14.23010 	
-2019-03-30_14:48:14.23396 LOG:  could not send data to client: Broken pipe
-2019-03-30_14:48:14.23549 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
-2019-03-30_14:48:14.24036 	       relname as relname,
-2019-03-30_14:48:14.24413 	       pg_total_relation_size(oid) bytes
-2019-03-30_14:48:14.24689 	  FROM pg_class
-2019-03-30_14:48:14.25050 	 WHERE relkind = 'r';
-2019-03-30_14:48:14.25388 	
-2019-03-30_14:48:14.25546 LOG:  autovacuum launcher shutting down
-2019-03-30_14:48:14.25763 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.25979 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.26301 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.26387 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.26608 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.26887 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:14.27106 FATAL:  terminating connection due to administrator command
-2019-03-30_14:48:15.63376 LOG:  shutting down
-2019-03-30_14:48:16.00366 LOG:  database system is shut down
+2019-04-02_15:22:37.85020 LOG:  database system was interrupted; last known up at 2019-04-01 18:03:00 GMT
+2019-04-02_15:22:38.29819 FATAL:  the database system is starting up
+2019-04-02_15:22:53.92429 FATAL:  the database system is starting up
+2019-04-02_15:22:53.92557 FATAL:  the database system is starting up
+2019-04-02_15:22:54.33814 FATAL:  the database system is starting up
+2019-04-02_15:22:54.34083 FATAL:  the database system is starting up
+2019-04-02_15:22:55.09615 FATAL:  the database system is starting up
+2019-04-02_15:22:55.11874 FATAL:  the database system is starting up
+2019-04-02_15:22:55.27067 FATAL:  the database system is starting up
+2019-04-02_15:22:55.27491 FATAL:  the database system is starting up
+2019-04-02_15:22:55.30369 FATAL:  the database system is starting up
+2019-04-02_15:22:55.36228 FATAL:  the database system is starting up
+2019-04-02_15:22:55.51009 FATAL:  the database system is starting up
+2019-04-02_15:22:55.51384 FATAL:  the database system is starting up
+2019-04-02_15:22:55.52007 FATAL:  the database system is starting up
+2019-04-02_15:22:55.52226 FATAL:  the database system is starting up
+2019-04-02_15:22:56.23329 FATAL:  the database system is starting up
+2019-04-02_15:22:56.23420 FATAL:  the database system is starting up
+2019-04-02_15:22:56.23835 FATAL:  the database system is starting up
+2019-04-02_15:22:56.23907 FATAL:  the database system is starting up
+2019-04-02_15:22:56.31843 FATAL:  the database system is starting up
+2019-04-02_15:22:56.34099 FATAL:  the database system is starting up
+2019-04-02_15:22:57.39039 FATAL:  the database system is starting up
+2019-04-02_15:22:57.39261 FATAL:  the database system is starting up
+2019-04-02_15:22:57.39398 FATAL:  the database system is starting up
+2019-04-02_15:22:57.65808 FATAL:  the database system is starting up
+2019-04-02_15:23:02.68254 FATAL:  the database system is starting up
+2019-04-02_15:23:02.74077 FATAL:  the database system is starting up
+2019-04-02_15:23:02.75429 FATAL:  the database system is starting up
+2019-04-02_15:23:02.86165 FATAL:  the database system is starting up
+2019-04-02_15:23:02.93561 FATAL:  the database system is starting up
+2019-04-02_15:23:03.06075 FATAL:  the database system is starting up
+2019-04-02_15:23:03.07386 FATAL:  the database system is starting up
+2019-04-02_15:23:03.26937 FATAL:  the database system is starting up
+2019-04-02_15:23:03.33553 FATAL:  the database system is starting up
+2019-04-02_15:23:03.33808 FATAL:  the database system is starting up
+2019-04-02_15:23:03.55132 FATAL:  the database system is starting up
+2019-04-02_15:23:03.60212 FATAL:  the database system is starting up
+2019-04-02_15:23:03.68248 FATAL:  the database system is starting up
+2019-04-02_15:23:05.87308 LOG:  database system was not properly shut down; automatic recovery in progress
+2019-04-02_15:23:05.98394 FATAL:  the database system is starting up
+2019-04-02_15:23:05.98574 FATAL:  the database system is starting up
+2019-04-02_15:23:06.06175 LOG:  invalid record length at 0/1BF89B8: wanted 24, got 0
+2019-04-02_15:23:06.06290 LOG:  redo is not required
+2019-04-02_15:23:06.52835 LOG:  MultiXact member wraparound protections are now enabled
+2019-04-02_15:23:06.53984 LOG:  database system is ready to accept connections
+2019-04-02_15:23:06.54113 LOG:  autovacuum launcher started
+2019-04-02_16:21:23.52824 received TERM from runit, sending INT instead to force quit connections
+2019-04-02_16:21:23.53288 LOG:  received fast shutdown request
+2019-04-02_16:21:23.53528 LOG:  aborting any active transactions
+2019-04-02_16:21:23.54220 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.54761 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.55196 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.55751 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.56257 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.56733 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.57052 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.57399 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.57756 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.58104 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.58271 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.58577 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.58915 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.59220 FATAL:  terminating connection due to administrator command
+2019-04-02_16:21:23.59424 LOG:  autovacuum launcher shutting down
+2019-04-02_16:21:23.75643 LOG:  shutting down
+2019-04-02_16:21:23.88720 LOG:  database system is shut down
